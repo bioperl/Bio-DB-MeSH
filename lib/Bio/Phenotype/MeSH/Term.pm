@@ -1,7 +1,7 @@
 #
 # BioPerl module for Bio::Phenotype::MeSH::Term
 #
-# Please direct questions and support issues to <bioperl-l@bioperl.org> 
+# Please direct questions and support issues to <bioperl-l@bioperl.org>
 #
 # Cared for by Heikki Lehvaslaiho, heikki-at-bioperl-dot-org
 #
@@ -43,7 +43,7 @@ over the Web.
 
 =head1 SEE ALSO
 
-L<Bio::DB::MeSH>, 
+L<Bio::DB::MeSH>,
 L<Bio::Phenotype::MeSH::Twig>
 
 =head1 FEEDBACK
@@ -51,21 +51,21 @@ L<Bio::Phenotype::MeSH::Twig>
 =head2 Mailing Lists
 
 User feedback is an integral part of the evolution of this and other
-Bioperl modules. Send your comments and suggestions preferably to the 
+Bioperl modules. Send your comments and suggestions preferably to the
 Bioperl mailing lists  Your participation is much appreciated.
 
   bioperl-l@bioperl.org                  - General discussion
   http://bioperl.org/wiki/Mailing_lists  - About the mailing lists
 
-=head2 Support 
+=head2 Support
 
 Please direct usage questions or support issues to the mailing list:
 
 I<bioperl-l@bioperl.org>
 
-rather than to the module maintainer directly. Many experienced and 
-reponsive experts will be able look at the problem and quickly 
-address it. Please include a thorough description of the problem 
+rather than to the module maintainer directly. Many experienced and
+reponsive experts will be able look at the problem and quickly
+address it. Please include a thorough description of the problem
 with code and data examples if at all possible.
 
 =head2 Reporting Bugs
@@ -184,7 +184,7 @@ sub description {
            $obj->add_synonym( $synonym );
  Function: Pushes one or more synonyms for the term  term
            into the list of synonyms.
- Returns : 
+ Returns :
  Args    : scalar(s).
 
 =cut
@@ -243,7 +243,7 @@ See: L<Bio::Phenotype::MeSH::Twig>.
            $obj->add_twig( $twig );
  Function: Pushes one or more twig term names [scalars, most likely Strings]
            into the list of twigs.
- Returns : 
+ Returns :
  Args    : scalar(s).
 
 =cut

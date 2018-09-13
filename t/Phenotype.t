@@ -4,13 +4,13 @@
 use strict;
 
 BEGIN {
-	use lib '.';
+    use lib '.';
     use Bio::Root::Test;
-    
+
     test_begin(-tests => 24);
-	
-	use_ok('Bio::Phenotype::MeSH::Term');
-	use_ok('Bio::Phenotype::MeSH::Twig');
+
+    use_ok('Bio::Phenotype::MeSH::Term');
+    use_ok('Bio::Phenotype::MeSH::Twig');
 }
 # For tests of Bio::DB::MeSH see t/DB.t
 

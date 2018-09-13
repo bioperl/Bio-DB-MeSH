@@ -1,7 +1,7 @@
 #
 # BioPerl module for Bio::Phenotype::MeSH::Twig
 #
-# Please direct questions and support issues to <bioperl-l@bioperl.org> 
+# Please direct questions and support issues to <bioperl-l@bioperl.org>
 #
 # Cared for by Heikki Lehvaslaiho, heikki-at-bioperl-dot-org
 #
@@ -31,7 +31,7 @@ Bio::Phenotype::MeSH::Twig - Context for a MeSH term
   #
   $ term->add_twig($twig);
 
-  # adding the twig into a term adds a link into into it 
+  # adding the twig into a term adds a link into into it
   $twig->term eq $term;
 
   # a twig can know about other terms under the parant node
@@ -63,21 +63,21 @@ L<Bio::Phenotype::MeSH::Term>
 =head2 Mailing Lists
 
 User feedback is an integral part of the evolution of this and other
-Bioperl modules. Send your comments and suggestions preferably to the 
+Bioperl modules. Send your comments and suggestions preferably to the
 Bioperl mailing lists  Your participation is much appreciated.
 
   bioperl-l@bioperl.org                  - General discussion
   http://bioperl.org/wiki/Mailing_lists  - About the mailing lists
 
-=head2 Support 
+=head2 Support
 
 Please direct usage questions or support issues to the mailing list:
 
 I<bioperl-l@bioperl.org>
 
-rather than to the module maintainer directly. Many experienced and 
-reponsive experts will be able look at the problem and quickly 
-address it. Please include a thorough description of the problem 
+rather than to the module maintainer directly. Many experienced and
+reponsive experts will be able look at the problem and quickly
+address it. Please include a thorough description of the problem
 with code and data examples if at all possible.
 
 =head2 Reporting Bugs
@@ -179,7 +179,7 @@ sub term {
            $obj->add_child( $child );
  Function: Pushes one or more child term names [scalars, most likely Strings]
            into the list of children.
- Returns : 
+ Returns :
  Args    : scalar(s).
 
 =cut
@@ -229,7 +229,7 @@ sub purge_children {
            $obj->add_sister( $sister );
  Function: Pushes one or more sister term names [scalars, most likely Strings]
            into the list of sisters.
- Returns : 
+ Returns :
  Args    : scalar(s).
 
 =cut
